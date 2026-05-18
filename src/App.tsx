@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { AppProvider, useApp } from './context/AppContext';
-import { ReactNode } from 'react';
+import type { ReactNode } from 'react';
 
 // Layout
 import Header from './components/layout/Header';

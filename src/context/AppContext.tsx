@@ -1,4 +1,5 @@
-import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect } from 'react';
+import type { ReactNode } from 'react';
 import { mockUser, mockProducts, mockOrders, mockQuotes, mockTransactions } from '../data/mockData';
 
 export type KycStatus = 'not_started' | 'pending' | 'verified' | 'action_required';
